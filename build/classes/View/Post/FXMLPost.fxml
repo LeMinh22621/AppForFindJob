@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="299.0" prefWidth="597.0">
+         <children>
+            <Label fx:id="lbTitle" alignment="TOP_CENTER" contentDisplay="TOP" ellipsisString="00000000000000000&#10;----------------&#10;------------&#10;=============&#10;==========" layoutY="-1.0" prefHeight="40.0" prefWidth="597.0" text="Title" textAlignment="CENTER" textFill="#001dfc">
+               <font>
+                  <Font name="Bell MT" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbAddress" alignment="TOP_LEFT" layoutX="3.0" layoutY="266.0" prefHeight="31.0" prefWidth="531.0" text="Address" />
+            <Label fx:id="lbSkill" layoutX="3.0" layoutY="227.0" prefHeight="37.0" prefWidth="597.0" text="Skill" />
+            <Button fx:id="btnApply" layoutX="542.0" layoutY="264.0" mnemonicParsing="false" text="Apply" />
+            <TextArea fx:id="txtAContents" editable="false" layoutY="39.0" prefHeight="188.0" prefWidth="600.0" promptText="Contents" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

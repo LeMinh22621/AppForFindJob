@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="318.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LogIn.FXMLSignupController">
+   <children>
+      <Button fx:id="btnRegister" layoutX="127.0" layoutY="255.0" mnemonicParsing="false" onAction="#btnRegisterEvent" text="Register" />
+      <Button fx:id="btnCancel" layoutX="219.0" layoutY="255.0" mnemonicParsing="false" onAction="#btnCancelEvent" prefHeight="25.0" prefWidth="60.0" text="Cancel" />
+      <TextField fx:id="txtUsername" layoutX="127.0" layoutY="77.0" promptText="Username" />
+      <TextField fx:id="txtEmail" layoutX="127.0" layoutY="180.0" promptText="Email" />
+      <Label layoutX="147.0" layoutY="20.0" text="Sign up" textFill="#29d9a5">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <HBox layoutX="127.0" layoutY="215.0" prefHeight="19.0" prefWidth="149.0">
+         <children>
+            <RadioButton fx:id="rbSeeker" mnemonicParsing="false" prefHeight="17.0" prefWidth="76.0" selected="true" text="Seeker" />
+            <RadioButton fx:id="rbEmployer" mnemonicParsing="false" text="Employer" />
+         </children>
+      </HBox>
+      <PasswordField fx:id="pwdPassword" layoutX="127.0" layoutY="112.0" promptText="Password" />
+      <PasswordField fx:id="pwdConfirmPassword" layoutX="127.0" layoutY="147.0" promptText="Confirm Password" />
+   </children>
+</AnchorPane>

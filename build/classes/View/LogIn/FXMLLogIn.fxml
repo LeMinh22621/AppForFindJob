@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="229.0" prefWidth="235.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LogIn.FXMLLogInController">
+    <stylesheets>
+        <URL value="@fxmllogin.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="btnLogin" layoutX="43.0" layoutY="165.0" mnemonicParsing="false" onAction="#btnLoginEvent" prefHeight="25.0" prefWidth="57.0" text="Log in" />
+      <TextField fx:id="txtUsername" layoutX="43.0" layoutY="80.0" promptText="Username" />
+      <Button fx:id="btnSignup" layoutX="135.0" layoutY="165.0" mnemonicParsing="false" onAction="#btnSignupEvent" text="Sign up" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="14.0" prefHeight="50.0" prefWidth="154.0" text="LOG IN" textAlignment="CENTER" textFill="#21eb13">
+         <font>
+            <Font name="Britannic Bold" size="36.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pwdPassword" layoutX="43.0" layoutY="115.0" promptText="Password" />
+   </children>
+</AnchorPane>
